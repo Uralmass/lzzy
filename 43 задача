@@ -1,0 +1,10 @@
+<?php
+
+namespace HexletBasics\DefineFunctions\DefaultArguments;
+
+// BEGIN (write your solution here)
+function getHiddenCard($numberCard, $star= 4)
+{
+return(str_repeat('*', $star) . substr($numberCard,-4));
+}
+// END

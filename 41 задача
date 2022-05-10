@@ -1,0 +1,11 @@
+<?php
+
+namespace HexletBasics\DefineFunctions\ReturnInstruction;
+
+// BEGIN (write your solution here)
+function getCurrentYear()
+{
+    $year = date('Y-m-d');
+    return substr($year,0 ,4 );
+}
+// END
