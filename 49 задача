@@ -1,0 +1,20 @@
+<?php
+
+namespace HexletBasics\Logic\LogicalNegation;
+
+use function HexletBasics\Functions\mb_strrev;
+
+// BEGIN (write your solution here)
+function isPalindrome($word)
+{
+    $lowWord = strtolower($word);
+    return $lowWord === strrev( $lowWord);
+}
+
+function isNotPalindrome($word)
+{
+    return !isPalindrome($word);
+}
+
+
+// END

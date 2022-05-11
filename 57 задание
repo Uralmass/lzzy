@@ -1,0 +1,10 @@
+<?php
+
+namespace HexletBasics\Conditionals\Elvis;
+
+// BEGIN (write your solution here)
+function generateAmount($countProduct, $price)
+{
+return $countProduct ?: $price*3;
+}
+// END

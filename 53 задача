@@ -1,0 +1,14 @@
+<?php
+
+namespace HexletBasics\Conditionals\IfElse;
+
+// BEGIN (write your solution here)
+function  normalizeUrl($site)
+{
+if(substr($site,0,7 ) === "http://"){
+return "https://" . substr($site, 7);
+} else {
+return "https://" . $site;
+}
+}
+// END

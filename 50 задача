@@ -1,0 +1,10 @@
+<?php
+
+namespace HexletBasics\Logic\LogicalOperators2;
+
+// BEGIN (write your solution here)
+function  isNeutralSoldier($colorArmor, $colorShield)
+{
+    return $colorArmor !== 'red' && $colorShield === 'black';
+}
+// END
