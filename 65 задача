@@ -1,0 +1,10 @@
+<?php
+
+namespace HexletBasics\Loops\SyntaxSugar;
+
+// BEGIN (write your solution here)
+function filterString($str, $char)
+{
+  return str_replace($char ,'' , $str);
+}
+// END

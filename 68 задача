@@ -1,0 +1,15 @@
+<?php
+
+namespace HexletBasics\Loops\ForLoop;
+
+// BEGIN (write your solution here)
+function sumOfSeries($numberOne, $numberTwo)
+{
+    $resultSum = 0;
+
+    for($i = $numberOne; $i <= $numberTwo; $i ++){
+        $resultSum += $i;
+    }
+    return $resultSum;
+}
+// END
